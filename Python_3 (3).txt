@@ -1,0 +1,63 @@
+print("вітаю на вікторині бравл старс та майнкрафт писати з малої літери")
+result = 0
+answer1 = input("скікльки бійців у бравл стар?")
+if answer1 == "106":
+     print("правильно")
+     result += 1
+else:
+    print("неправильно")
+answer2 = input("який боєць має титул Я ШВИДКІСТЬ?")
+if answer2 == "макс":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+answer3 = input("який боєць має титул чітер?")
+if answer3 == "міпл":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+answer4 = input("який блок неможливо зламати в майнкрафті?")
+if answer4 == "бедрок":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+answer5 = input("що приваблює піглінів у манйкрафті?")
+if answer5 == "золото":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+answer6 = input("хто може спати на ліжку в незері?")
+if answer6 == "селянин":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+answer7 = input("з чого будується портал в незер?")
+if answer7 == "обсидіан":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+answer8 = input("що робить кріпер?")
+if answer8 == "підривається":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+answer9 = input("з чим колаба зараз у бравлі")
+if answer9 == "дуолінго":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+    answer10 = input("чим стає селянин після укусу зомбі?")
+if answer10 == "зомбі-селянином":
+     print("правильно")
+     result+=1
+else:
+    print("неправильно")
+print("ви маєте",result,"балів")
