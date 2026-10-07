@@ -1,0 +1,8 @@
+gta={"vice city stories" : "gta" , "liberty stories" : "gta",}
+print(gta["vice city stories"])
+gta["Toni Cipriani"]="liberty stories"
+print(gta)
+gta["Victor Vic Vance"]="vice city stories"
+print(gta)
+del gta["Victor Vic Vance"]
+print(gta)
