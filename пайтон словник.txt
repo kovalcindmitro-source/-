@@ -1,0 +1,8 @@
+ads={"db lehfr" : "no" , "you stupid" : "yes"}
+print(ads["you stupid"])
+ads["Dima"]="name"
+print(ads)
+ads["Dima"]="4"
+print(ads)
+del ads["Dima"]
+print(ads)
