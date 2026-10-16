@@ -1,0 +1,4 @@
+def poca(name):
+    print(f"goodbye, {name}!")
+name = input("whats you name")
+poca(name)
