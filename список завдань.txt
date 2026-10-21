@@ -1,0 +1,31 @@
+## Початковий список завдань
+tasks = ["home work", "karate"]
+
+print("--- MENU ---")
+print("1. add task")
+print("2. delete task")
+print("3. view task")
+
+# Беремо вибір користувача
+question = input("select a task (1-3): ")
+
+if question == "1":
+    a = input("enter the task: ")
+    tasks.append(a) # Додаємо нове завдання в список
+    print("Updated tasks:", tasks)
+
+elif question == "2":
+    a = input("enter task to delete: ")
+    # Перевіряємо, чи є таке завдання в списку
+    if a in tasks:
+        tasks.remove(a) # Видаляємо, якщо знайшли
+        print("Updated tasks:", tasks)
+    else:
+        print("This task does not exist")
+
+elif question == "3":
+    # Просто виводимо весь список
+    print(tasks)
+
+else:
+    print("Invalid choice")
